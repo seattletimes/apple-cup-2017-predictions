@@ -1,0 +1,23 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "authorized-infliction"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2017/apple-cup-predictions"
+    }
+  },
+  "title": "Hawks Pick 'em",
+  "description": "Got a prediction for the big game? See how you match up against other fans.",
+  "url": "http://projects.seattletimes.com/2016/hawks-lions-pick-em/",
+  "image": "assets/social.jpg",
+  "sheets": ["1dU9yher0dFERznjKAZJuv3Sf37xH7z7n8Wm90i5Y3WU"],
+  "production": true,
+  "embedded": false,
+  "teams": {
+    "home": "Hawks",
+    "opposing": "Lions"
+  }
+}
