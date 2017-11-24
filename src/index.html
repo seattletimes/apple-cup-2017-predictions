@@ -115,7 +115,7 @@
        </h2>
       <p>Got a guess?
 
-        Post it here, and see what other fans and <a class="notables" href="#notables">notables</a> are predicting.</p>
+        Post it here, and see what other fans and notables are predicting.</p>
     </div>
 
     <div class="container">
@@ -126,7 +126,7 @@
         <div class="results">
 
           <div class="scatter-box">
-            <div class="y axis">Lions</div>
+            <div class="y axis">Cougars</div>
             <div class="scatterplot">
               <% Object.keys(groupedPredictions)
                   .sort((a, b) => groupedPredictions[a].count - groupedPredictions[b].count)
@@ -144,7 +144,7 @@
                 </div>
               <% } %>
             </div>
-            <div class="x axis">Hawks</div>
+            <div class="x axis">Huskies</div>
           </div>
 
           <div class="sidebar">
@@ -152,13 +152,13 @@
 
             <div class="sidebar-box">
               <div class="team-box home">
-                <div class="team home">Hawks</div>
+                <div class="team home">Huskies</div>
                 <div class="percent"><%= aPercent %>%</div>
                 favored by<br>an average of
                 <div class="avg-diff"><%= avgADiff %> points</div>
               </div>
               <div class="team-box opposing">
-                <div class="team opposing">Lions</div>
+                <div class="team opposing">Cougars</div>
                 <div class="percent"><%= bPercent %>%</div>
                 favored by<br>an average of
                 <div class="avg-diff"><%= avgBDiff %> points</div>
